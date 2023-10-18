@@ -13,8 +13,8 @@ spec:
         app: graphql-ivanavila
     spec:
       containers:
-      - image: okteto.dev/ivanavila:latest
-        name: ivanavila
+      - image: okteto.dev/graphql-ivanavila:latest
+        name: graphql-ivanavila
        # envFrom:
        #- configMapRef:
        #    name: ivanavila-config
